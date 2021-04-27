@@ -32,7 +32,7 @@ function Quiz() {
     }
     fetchData();
     
-  }, []); // Or [] if effect doesn't need props or state
+  }, []);
   
 
   function questionsChoise(e, index) {
@@ -53,7 +53,6 @@ function Quiz() {
   };
 
   function goToWelcome(){
-    console.log("shemodis");
     history.push("/welcome");
   }
 
